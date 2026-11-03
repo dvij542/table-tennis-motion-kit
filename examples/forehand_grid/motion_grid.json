@@ -1,0 +1,331 @@
+{
+  "axes": [
+    "y",
+    "z"
+  ],
+  "y_offsets_m": [
+    -0.15,
+    -0.1,
+    -0.05,
+    0.0,
+    0.05
+  ],
+  "z_offsets_m": [
+    0.0,
+    0.05,
+    0.1,
+    0.15
+  ],
+  "nominal_target_xyz_m": [
+    0.43,
+    -0.38,
+    0.86
+  ],
+  "entries": [
+    {
+      "key": "table_tennis_forehand_y+000_z000",
+      "directory": "table_tennis_forehand_y+000_z000",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.38,
+        0.86
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-005_z000",
+      "directory": "table_tennis_forehand_y-005_z000",
+      "offset_m": [
+        0.0,
+        -0.05,
+        0.0
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.43,
+        0.86
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+000_z005",
+      "directory": "table_tennis_forehand_y+000_z005",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.05
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.38,
+        0.91
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+005_z000",
+      "directory": "table_tennis_forehand_y+005_z000",
+      "offset_m": [
+        0.0,
+        0.05,
+        0.0
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.33,
+        0.86
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-010_z000",
+      "directory": "table_tennis_forehand_y-010_z000",
+      "offset_m": [
+        0.0,
+        -0.1,
+        0.0
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.48,
+        0.86
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-005_z005",
+      "directory": "table_tennis_forehand_y-005_z005",
+      "offset_m": [
+        0.0,
+        -0.05,
+        0.05
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.43,
+        0.91
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+000_z010",
+      "directory": "table_tennis_forehand_y+000_z010",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.38,
+        0.96
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+005_z005",
+      "directory": "table_tennis_forehand_y+005_z005",
+      "offset_m": [
+        0.0,
+        0.05,
+        0.05
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.33,
+        0.91
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-015_z000",
+      "directory": "table_tennis_forehand_y-015_z000",
+      "offset_m": [
+        0.0,
+        -0.15,
+        0.0
+      ],
+      "generator_sha256": "7fa619e7dfbe87af41a0fed79b8ee356b58df505079b1e3cee544859fc19888e",
+      "target_xyz_m": [
+        0.43,
+        -0.53,
+        0.86
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+000_z015",
+      "directory": "table_tennis_forehand_y+000_z015",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.38,
+        1.01
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-010_z005",
+      "directory": "table_tennis_forehand_y-010_z005",
+      "offset_m": [
+        0.0,
+        -0.1,
+        0.05
+      ],
+      "generator_sha256": "7fa619e7dfbe87af41a0fed79b8ee356b58df505079b1e3cee544859fc19888e",
+      "target_xyz_m": [
+        0.43,
+        -0.48,
+        0.91
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-005_z010",
+      "directory": "table_tennis_forehand_y-005_z010",
+      "offset_m": [
+        0.0,
+        -0.05,
+        0.1
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.43,
+        0.96
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+005_z010",
+      "directory": "table_tennis_forehand_y+005_z010",
+      "offset_m": [
+        0.0,
+        0.05,
+        0.1
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.33,
+        0.96
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-015_z005",
+      "directory": "table_tennis_forehand_y-015_z005",
+      "offset_m": [
+        0.0,
+        -0.15,
+        0.05
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.53,
+        0.91
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-010_z010",
+      "directory": "table_tennis_forehand_y-010_z010",
+      "offset_m": [
+        0.0,
+        -0.1,
+        0.1
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.48,
+        0.96
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-005_z015",
+      "directory": "table_tennis_forehand_y-005_z015",
+      "offset_m": [
+        0.0,
+        -0.05,
+        0.15
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.43,
+        1.01
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y+005_z015",
+      "directory": "table_tennis_forehand_y+005_z015",
+      "offset_m": [
+        0.0,
+        0.05,
+        0.15
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.33,
+        1.01
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-015_z010",
+      "directory": "table_tennis_forehand_y-015_z010",
+      "offset_m": [
+        0.0,
+        -0.15,
+        0.1
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.53,
+        0.96
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-010_z015",
+      "directory": "table_tennis_forehand_y-010_z015",
+      "offset_m": [
+        0.0,
+        -0.1,
+        0.15
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.48,
+        1.01
+      ]
+    },
+    {
+      "key": "table_tennis_forehand_y-015_z015",
+      "directory": "table_tennis_forehand_y-015_z015",
+      "offset_m": [
+        0.0,
+        -0.15,
+        0.15
+      ],
+      "generator_sha256": "755ee70fcf79c923f1e52482d5ed20be9907c7c1cd65fbdd2ecac126ad90762c",
+      "target_xyz_m": [
+        0.43,
+        -0.53,
+        1.01
+      ]
+    }
+  ],
+  "failures": [],
+  "complete": true,
+  "fps": 50,
+  "hit_time_s": 1.0,
+  "duration_s": 2.5
+}

@@ -1,0 +1,23 @@
+[project]
+name = "table-tennis-motion-kit"
+version = "0.1.0"
+description = "Standalone G1/VICAR forehand motion generation and Viser preview"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy==1.26.4",
+  "scipy==1.15.3",
+  "joblib==1.5.3",
+  "yourdfpy==0.0.60",
+  "trimesh==4.11.3",
+  "viser==1.0.24",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+video = ["mujoco==3.3.5", "imageio==2.37.3", "imageio-ffmpeg==0.6.0", "opencv-python-headless==4.11.0.86"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

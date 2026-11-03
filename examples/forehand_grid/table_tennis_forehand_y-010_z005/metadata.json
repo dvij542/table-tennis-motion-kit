@@ -1,0 +1,323 @@
+{
+  "task": "table_tennis_right_forehand",
+  "hit_idx": 50,
+  "hit_time_s": 1.0,
+  "duration_s": 2.5,
+  "fps": 50,
+  "joint_names": [
+    "left_hip_pitch_joint",
+    "left_hip_roll_joint",
+    "left_hip_yaw_joint",
+    "left_knee_joint",
+    "left_ankle_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_hip_pitch_joint",
+    "right_hip_roll_joint",
+    "right_hip_yaw_joint",
+    "right_knee_joint",
+    "right_ankle_pitch_joint",
+    "right_ankle_roll_joint",
+    "waist_yaw_joint",
+    "waist_roll_joint",
+    "waist_pitch_joint",
+    "left_shoulder_pitch_joint",
+    "left_shoulder_roll_joint",
+    "left_shoulder_yaw_joint",
+    "left_elbow_joint",
+    "left_wrist_roll_joint",
+    "left_wrist_pitch_joint",
+    "left_wrist_yaw_joint",
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint",
+    "right_wrist_pitch_joint",
+    "right_wrist_yaw_joint"
+  ],
+  "urdf": "../../../assets/vicar/g1.urdf",
+  "urdf_sha256": "b482b6a3ece50e545b466e813aa4d6a54d6e1602d8d1faca0b13016dc433fb89",
+  "generator_sha256": "7fa619e7dfbe87af41a0fed79b8ee356b58df505079b1e3cee544859fc19888e",
+  "axes": "+X forward, +Y left, +Z up",
+  "wrist_link": "right_wrist_yaw_link",
+  "hand_center_offset_local": [
+    0.11649999999999999,
+    0.0,
+    0.0
+  ],
+  "natural_forehand": true,
+  "stroke_style": "right_forehand_outward_head",
+  "recovery_mode": "joint_space_quintic_return",
+  "visual_right_gripper_gap_m": 0.0,
+  "target_knots_s": [
+    0.0,
+    0.45,
+    0.7,
+    1.0,
+    1.3,
+    1.5,
+    2.5
+  ],
+  "target_knots_xyz": [
+    [
+      0.32,
+      -0.35,
+      0.97
+    ],
+    [
+      0.22,
+      -0.5,
+      0.9550000000000001
+    ],
+    [
+      0.22,
+      -0.56,
+      0.9400000000000001
+    ],
+    [
+      0.43,
+      -0.48,
+      0.91
+    ],
+    [
+      0.46,
+      -0.27,
+      0.995
+    ],
+    [
+      0.44,
+      -0.22,
+      0.99
+    ],
+    [
+      0.32,
+      -0.35,
+      0.97
+    ]
+  ],
+  "target_offset_world_m": [
+    0.0,
+    -0.1,
+    0.05
+  ],
+  "refinement_position_weight": 250.0,
+  "target_knot_velocities": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.15,
+      -0.15,
+      -0.12
+    ],
+    [
+      0.08,
+      0.0,
+      0.0
+    ],
+    [
+      0.7666666666666666,
+      0.7,
+      0.15
+    ],
+    [
+      0.0,
+      0.1,
+      0.2
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "hit_position_world": [
+    0.43012217441083495,
+    -0.48009285055617523,
+    0.909945944778381
+  ],
+  "target_hit_position_world": [
+    0.43,
+    -0.48,
+    0.91
+  ],
+  "nominal_hit_velocity_m_s": [
+    0.7666666666666666,
+    0.7,
+    0.15
+  ],
+  "lower_body_frozen": true,
+  "pelvis_frozen": true,
+  "left_arm_joints_frozen": true,
+  "right_shoulder_roll_upper_limit_rad": -0.3,
+  "optimized_joint_bounds_rad": {
+    "right_shoulder_pitch_joint": [
+      -3.0792,
+      2.6604
+    ],
+    "right_shoulder_roll_joint": [
+      -2.2415000000000003,
+      -0.3
+    ],
+    "right_shoulder_yaw_joint": [
+      -2.608,
+      2.608
+    ],
+    "right_elbow_joint": [
+      -0.9,
+      1.85
+    ],
+    "right_wrist_roll_joint": [
+      -1.962222054,
+      1.962222054
+    ],
+    "right_wrist_pitch_joint": [
+      -1.604429558,
+      1.604429558
+    ],
+    "right_wrist_yaw_joint": [
+      -1.604429558,
+      1.604429558
+    ]
+  },
+  "racket_orientation_constraint": "full_rotation",
+  "phases_s": {
+    "backswing": [
+      0,
+      0.45
+    ],
+    "loaded": [
+      0.45,
+      0.7
+    ],
+    "forward_swing": [
+      0.7,
+      1.0
+    ],
+    "follow_through": [
+      1.0,
+      1.3
+    ],
+    "settle": [
+      1.3,
+      1.5
+    ],
+    "recover": [
+      1.5,
+      2.5
+    ]
+  },
+  "limitations": "VICAR website visual URDF: simplified meshes, original joint geometry, no inertial/collision elements. Kinematic preview only; not certified for dynamics or hardware. Face offset estimated from mesh. smpl_joints is an unused zero placeholder.",
+  "table": {
+    "length_m": 2.74,
+    "width_m": 1.525,
+    "height_m": 0.76,
+    "near_edge_x_m": 0.36,
+    "center_y_m": 0.0,
+    "thickness_m": 0.025,
+    "net_height_m": 0.1525
+  },
+  "racket": {
+    "center_offset_local": [
+      0.2365,
+      0.0,
+      0.0
+    ],
+    "contact_offset_local": [
+      0.2365,
+      0.0062,
+      0.0
+    ],
+    "blade_rotation_local": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "face_normal_local": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "blade_half_width_m": 0.075,
+    "blade_half_length_m": 0.085,
+    "blade_thickness_m": 0.012,
+    "approximate_mount": false,
+    "embedded_in_urdf": true,
+    "link": "right_racket",
+    "contact_surface_offset_m": 0.0062,
+    "contact_definition": "VICAR right_racket origin offset 6.2 mm along local +Y onto the mesh face"
+  },
+  "contact_point": "center of racket front face",
+  "pelvis_distance_to_table_end_m": 0.36,
+  "racket_attitude": {
+    "yaw_knots_deg": [
+      45,
+      35,
+      35,
+      45,
+      60,
+      60,
+      45
+    ],
+    "roll_knots_deg": [
+      90.0,
+      90.0,
+      96.66666666666667,
+      103.33333333333334,
+      90.0,
+      90.0,
+      90.0
+    ]
+  },
+  "validation": {
+    "frames": 126,
+    "hit_frame": 50,
+    "max_position_error_m": 0.00016269535773710925,
+    "max_position_error_frame": 50,
+    "max_orientation_error_deg": 0.04500292663992238,
+    "max_orientation_error_frame": 53,
+    "leg_joint_max_variation_rad": 0.0,
+    "left_joint_max_variation_rad": 0.0,
+    "left_hand_max_displacement_m": 0.10054676030082668,
+    "hand_velocity_at_hit_m_s": [
+      0.7620769985262773,
+      0.7019664659543026,
+      0.14874978692127616
+    ],
+    "max_joint_speed_rad_s": 5.851759433746338,
+    "max_joint_acceleration_rad_s2": 85.62960052490234,
+    "right_shoulder_roll_range_rad": [
+      -0.9288513660430908,
+      -0.5506139993667603
+    ],
+    "loop_joint_difference_rad": 0.0,
+    "hit_height_above_table_m": 0.14994594477838097,
+    "racket_vertical_error_deg": 0.0019110419107633864,
+    "max_face_normal_error_deg": 0.034346260747525253,
+    "racket_normal_at_hit": [
+      0.7071724097165283,
+      0.7070411457781158,
+      3.335397348024044e-05
+    ]
+  },
+  "urdf_path_base": "metadata_directory"
+}
