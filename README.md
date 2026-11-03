@@ -1,5 +1,7 @@
 # G1 Table-Tennis Motion Kit
 
+![VICAR forehand at impact with table and target controls](docs/preview.png)
+
 Self-contained right-arm **forehand** reference generator and interactive Viser
 viewer using VICAR's G1 robot with the integrated right-wrist racket. Includes
 the 20 solved target variants shown in the original viewer. No GR00T checkout,
@@ -271,6 +273,8 @@ See NOTICE.md before public distribution. This package covers the latest VICAR
 forehand grid, not earlier Thor/YAM synthetic-racket backhand experiments.
 
 ## 9. Push This Repository to GitHub
+
+See [the verification receipt](docs/VERIFICATION.md) for the tested scope.
 
 The prepared local directory is already a Git repository on branch `main` with
 an initial commit. Nothing has been pushed and no remote is configured. Create
